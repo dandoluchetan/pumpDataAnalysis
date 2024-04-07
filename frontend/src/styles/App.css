@@ -1,0 +1,53 @@
+/* App-wide styles */
+.App {
+    text-align: center;
+}
+
+.App-header {
+    background-color: #1c05ae;
+    padding: 20px;
+    color: rgb(230, 199, 21);
+    font-size: 48px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.chart-selection-buttons {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.chart-selection-buttons button {
+    flex-grow: 1;
+    cursor: pointer;
+    margin: 0 10px;
+    padding: 10px 0;
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(230, 199, 21);
+    background-color: #1c05ae;
+    border: none;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+    outline: none;
+    box-shadow: none;
+}
+
+.chart-selection-buttons button:hover {
+    background-color: #5995cd;
+    transform: scale(1.05);
+}
+
+.chart-selection-buttons button.active {
+    background-color: #5995cd;
+    transform: scale(1.05);
+}
+
+.chart-area {
+    margin: 20px auto;
+    max-width: 80%;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f8f9fa;
+}
